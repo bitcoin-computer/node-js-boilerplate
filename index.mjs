@@ -7,7 +7,7 @@ class Counter {
   }
 
   inc() {
-    this.n += 2
+    this.n += 1
   }
 }
 

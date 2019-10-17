@@ -1,4 +1,4 @@
-A basic example for using the [Bitcoin|Computer](https://bitcoin-computer.gitbook.io/docs/). It's a smart contract written in Javascript and deployed using node.js. The smart contract is a vanilla Javascript program:
+A basic example for using the [Bitcoin|Computer](https://bitcoin-computer.gitbook.io/docs/). The example shows how to write a smart contract in Javascript and how to deploy it using node.js. The smart contract is the following Javascript program:
 
 ````
 class Counter {
@@ -7,7 +7,7 @@ class Counter {
   }
 
   inc() {
-    this.n += 2
+    this.n += 1
   }
 }
 ````
