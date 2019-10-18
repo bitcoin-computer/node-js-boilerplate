@@ -12,4 +12,8 @@ class Counter {
 }
 ````
 
-You can find more information in the [docs](https://bitcoin-computer.gitbook.io/docs/). Also check out the corresponding [Youtube video](https://www.youtube.com/watch?v=51ZFe_8mSPw).
+You can find more information in the [docs](https://bitcoin-computer.gitbook.io/docs/). Also check out the corresponding [Youtube tutorial](https://www.youtube.com/watch?v=51ZFe_8mSPw).
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=51ZFe_8mSPw
+" target="_blank"><img src="http://img.youtube.com/vi/51ZFe_8mSPw/0.jpg"
+alt="IMAGE ALT TEXT HERE" width="300" border="10" /></a>
