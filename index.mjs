@@ -12,8 +12,8 @@ class Counter {
 }
 
 ;(async () => {
-  const counter = await computer.new(Counter)
+  const counter = await computer.new(Counter, [])
+  console.log(`  > Created counter with value ${counter.n}`)
   await counter.inc()
-  console.log(counter.n)
-  computer.shutdown()
+  console.log(`  > Incremented counter to ${counter.n}`)
 })()
