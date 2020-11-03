@@ -10,6 +10,6 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "bitcoin-computer": "^0.3.1-beta"
+    "bitcoin-computer": "^0.4.2-beta"
   }
 }
