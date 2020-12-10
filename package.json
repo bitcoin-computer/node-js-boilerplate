@@ -1,5 +1,5 @@
 {
-  "name": "example-smart-counter-node",
+  "name": "bitcoin-node-app",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,6 +10,6 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "bitcoin-computer": "^0.4.2-beta"
+    "bitcoin-computer": "^0.4.3-beta"
   }
 }

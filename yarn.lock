@@ -27,10 +27,10 @@ big-integer@^1.6.48:
   resolved "https://registry.yarnpkg.com/big-integer/-/big-integer-1.6.48.tgz#8fd88bd1632cba4a1c8c3e3d7159f08bb95b4b9e"
   integrity sha512-j51egjPa7/i+RdiRuJbPdJ2FIUYYPhvYLjzoYbcMMm62ooO6F94fETG4MTs46zPAF9Brs04OajboA/qTGuz78w==
 
-bitcoin-computer@^0.4.2-beta:
-  version "0.4.2-beta"
-  resolved "https://registry.yarnpkg.com/bitcoin-computer/-/bitcoin-computer-0.4.2-beta.tgz#6831c4db66d37eade293815e7ccbc3a6c3b023d3"
-  integrity sha512-NdDeTXjgLbStg+cuDJKKuu6prdfGK92VnpcmO3DPfZs/iFrU5n4WpG7PLtwTYA8arPhxol3Iomo4T/lzp+Zj3g==
+bitcoin-computer@^0.4.3-beta:
+  version "0.4.3-beta"
+  resolved "https://registry.yarnpkg.com/bitcoin-computer/-/bitcoin-computer-0.4.3-beta.tgz#34477a3065bbe974d7198cbbd95a040068d71352"
+  integrity sha512-HTHeEpZD92gXIwk6tTgXh+6qjrWMEYF2T7sztoZClZKfYlJtseZn+baXa/kO+QgcEs5OTnKIciAdXfOTvRk2Ug==
   dependencies:
     axios "^0.18.0"
     bitcoinsource "^0.1.19"
