@@ -1,6 +1,6 @@
 # Using the Bitcoin Computer in node.js
 
-A basic example for using the [Bitcoin Computer](http://www.bitcoincomputer.io) in node.js. The smart contract is the following Javascript program:
+A basic example for using the [Bitcoin Computer](http://www.bitcoincomputer.io) in node.js. The smart contract is:
 
 ````
 class Counter {
@@ -14,7 +14,7 @@ class Counter {
 }
 ````
 
-The script below creates a smart object of the Counter class, deployes it on the blockchain, and calls the ``inc()`` function. Both the smart contract and the script are in the file ``index.mjs``.
+The script below creates a smart object of the Counter class, deploys it on the blockchain, and calls the ``inc`` function. Both the smart contract and the script are in the file ``index.mjs``.
 
 ````
   // create smart object
@@ -28,12 +28,7 @@ The script below creates a smart object of the Counter class, deployes it on the
 
 ## Execute the smart contract
 
-To execute the smart contract run
-````
-node --experimental-modules index.mjs
-````
-
-If it worked you should see a log
+To execute the smart contract run ``yarn start`` or ``npm start``. If it worked you should see a log
 ````
   > Created counter with value 0
   > Incremented counter to 1

@@ -1,5 +1,5 @@
-import Computer from 'bitcoin-computer'
-const computer = new Computer.default({ seed: 'replace this seed', network: 'testnet' })
+import { Computer } from 'bitcoin-computer'
+const computer = new Computer({ seed: 'replace this seed', network: 'testnet' })
 
 class Counter {
   constructor() {
