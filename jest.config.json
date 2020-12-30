@@ -1,0 +1,14 @@
+{
+  "testEnvironment": "node",
+  "moduleFileExtensions": [
+    "ts",
+    "tsx",
+    "js",
+    "json",
+    "node",
+    "mjs"
+  ],
+    "testMatch": [
+      "**/?(*.)+(spec|test).mjs"
+    ]
+}

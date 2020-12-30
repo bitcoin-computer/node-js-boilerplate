@@ -4,12 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node --experimental-modules index.mjs"
+    "start": "node --experimental-modules index.mjs",
+    "test": "jest -- --experimental-modules"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "dependencies": {
     "bitcoin-computer": "^0.4.4-beta"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
   }
 }
