@@ -1,18 +1,7 @@
 import { Computer } from 'bitcoin-computer'
+import Counter from './counter'
 
 const computer = new Computer({ seed: 'replace this seed', network: 'testnet' })
-
-class Counter {
-  n: number
-
-  constructor() {
-    this.n = 0
-  }
-
-  inc() {
-    this.n += 1
-  }
-}
 
 describe('Counter', () => {  
   it('Should increment n', async () => {
