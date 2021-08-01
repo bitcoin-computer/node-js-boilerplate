@@ -13,6 +13,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "@jest/types": "^27.0.6",
     "bitcoin-computer": "^0.4.4-beta"
   },
   "devDependencies": {
