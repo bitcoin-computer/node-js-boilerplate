@@ -2,19 +2,21 @@ module.exports = {
   env: {
     browser: true,
     es2021: true,
+    jest: true,
   },
   extends: [
-    'airbnb-base',
+    'airbnb-typescript',
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module',
+    project: ["./tsconfig.json"]
+
   },
-  plugins: [
-    '@typescript-eslint',
-  ],
   rules: {
-    "semi": ["error", "never"]
-  },
+    "import/extensions": "off",
+    "react/jsx-filename-extension": "off",
+    "import/no-extraneous-dependencies": "off"
+  }
 };
