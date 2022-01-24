@@ -1,4 +1,4 @@
-# node-typescript-boilerplate
+# bitcoin-computer-node-js-boilerplate
 
 [![Sponsor][sponsor-badge]][sponsor]
 [![TypeScript version][ts-badge]][typescript-4-5]
@@ -6,10 +6,11 @@
 [![APLv2][license-badge]][license]
 [![Build Status - GitHub Actions][gha-badge]][gha-ci]
 
-👩🏻‍💻 Developer Ready: A comprehensive template. Works out of the box for most [Node.js][nodejs] projects.
+👩🏻‍💻 Developer Ready: A comprehensive template for using [Bitcoin Computer][bitcoin-computer] with [Node.js][nodejs]. Adapted from [node-typescript-boilerplate][node-typescript-boilerplate].
 
 🏃🏽 Instant Value: All basic tools included and configured:
 
+- [Bitcoin Computer 0.5][bitcoin-computer]
 - [TypeScript][typescript] [4.5][typescript-4-5]
 - [ESLint][eslint] with some initial rules recommendation
 - [Jest][jest] for fast unit testing and code coverage
@@ -86,6 +87,8 @@ Licensed under the APLv2. See the [LICENSE](https://github.com/jsynowiec/node-ty
 [nodejs-badge]: https://img.shields.io/badge/Node.js->=%2016.13-blue.svg
 [nodejs]: https://nodejs.org/dist/latest-v14.x/docs/api/
 [gha-badge]: https://github.com/jsynowiec/node-typescript-boilerplate/actions/workflows/nodejs.yml/badge.svg
+[bitcoin-computer]: http://bitcoincomputer.io/
+[node-typescript-boilerplate]: https://github.com/jsynowiec/node-typescript-boilerplate
 [gha-ci]: https://github.com/jsynowiec/node-typescript-boilerplate/actions/workflows/nodejs.yml
 [typescript]: https://www.typescriptlang.org/
 [typescript-4-5]: https://www.typescriptlang.org/docs/handbook/release-notes/typescript-4-5.html
