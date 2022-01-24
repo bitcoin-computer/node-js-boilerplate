@@ -1,14 +1,13 @@
 # bitcoin-computer-node-js-boilerplate
 
-[![Sponsor][sponsor-badge]][sponsor]
 [![TypeScript version][ts-badge]][typescript-4-5]
 [![Node.js version][nodejs-badge]][nodejs]
 [![APLv2][license-badge]][license]
 <!-- [![Build Status - GitHub Actions][gha-badge]][gha-ci] -->
 
-👩🏻‍💻 Developer Ready: A comprehensive template for using [Bitcoin Computer][bitcoin-computer] with [Node.js][nodejs]. Adapted from [node-typescript-boilerplate][node-typescript-boilerplate].
+👩🏻‍💻 A template for using [Bitcoin Computer][bitcoin-computer] with [Node.js][nodejs]. Adapted from [node-typescript-boilerplate][node-typescript-boilerplate].
 
-🏃🏽 Instant Value: All basic tools included and configured:
+🏃🏽 All basic tools included and configured:
 
 - [Bitcoin Computer 0.5][bitcoin-computer]
 - [TypeScript][typescript] [4.5][typescript-4-5]
@@ -39,9 +38,9 @@ To clone the repository, use the following commands:
 ```sh
 git clone https://github.com/bitcoin-computer/bitcoin-computer-node-js-boilerplate
 cd bitcoin-computer-node-js-boilerplate
-npm install
+yarn install
 ```
-
+<!--
 ### Download latest release
 
 Download and unzip the current **main** branch or one of the tags:
@@ -50,6 +49,7 @@ Download and unzip the current **main** branch or one of the tags:
 wget https://github.com/bitcoin-computer/bitcoin-computer-node-js-boilerplate/archive/main.zip -O bitcoin-computer-node-js-boilerplate.zip
 unzip bitcoin-computer-node-js-boilerplate.zip && rm bitcoin-computer-node-js-boilerplate.zip
 ```
+-->
 
 ## Available Scripts
 
@@ -61,24 +61,6 @@ unzip bitcoin-computer-node-js-boilerplate.zip && rm bitcoin-computer-node-js-bo
 - `test` - run tests,
 - `test:watch` - interactive watch mode to automatically re-run tests
 
-## Additional Informations
-
-### Why include Volta
-
-[Volta][volta]’s toolchain always keeps track of where you are, it makes sure the tools you use always respect the settings of the project you’re working on. This means you don’t have to worry about changing the state of your installed software when switching between projects. For example, it's [used by engineers at LinkedIn][volta-tomdale] to standardize tools and have reproducible development environments.
-
-I recommend to [install][volta-getting-started] Volta and use it to manage your project's toolchain.
-
-### Writing tests in JavaScript
-
-Writing unit tests in TypeScript can sometimes be troublesome and confusing. Especially when mocking dependencies and using spies.
-
-This is **optional**, but if you want to learn how to write JavaScript tests for TypeScript modules, read the [corresponding wiki page][wiki-js-tests].
-
-## Backers & Sponsors
-
-Support this project by becoming a [sponsor][sponsor].
-
 ## License
 
 Licensed under the APLv2. See the [LICENSE](https://github.com/bitcoin-computer/bitcoin-computer-node-js-boilerplate/blob/main/LICENSE) file for details.
@@ -88,14 +70,12 @@ Licensed under the APLv2. See the [LICENSE](https://github.com/bitcoin-computer/
 [nodejs]: https://nodejs.org/dist/latest-v14.x/docs/api/
 [gha-badge]: https://github.com/bitcoin-computer/bitcoin-computer-node-js-boilerplate/actions/workflows/nodejs.yml/badge.svg
 [bitcoin-computer]: http://bitcoincomputer.io/
-[node-typescript-boilerplate]: https://github.com/bitcoin-computer/bitcoin-computer-node-js-boilerplate
+[node-typescript-boilerplate]: https://github.com/jsynowiec/node-typescript-boilerplate
 [gha-ci]: https://github.com/bitcoin-computer/bitcoin-computer-node-js-boilerplate/actions/workflows/nodejs.yml
 [typescript]: https://www.typescriptlang.org/
 [typescript-4-5]: https://www.typescriptlang.org/docs/handbook/release-notes/typescript-4-5.html
 [license-badge]: https://img.shields.io/badge/license-APLv2-blue.svg
 [license]: https://github.com/bitcoin-computer/bitcoin-computer-node-js-boilerplate/blob/main/LICENSE
-[sponsor-badge]: https://img.shields.io/badge/♥-Sponsor-fc0fb5.svg
-[sponsor]: https://github.com/sponsors/jsynowiec
 [jest]: https://facebook.github.io/jest/
 [eslint]: https://github.com/eslint/eslint
 [wiki-js-tests]: https://github.com/bitcoin-computer/bitcoin-computer-node-js-boilerplate/wiki/Unit-tests-in-plain-JavaScript
