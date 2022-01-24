@@ -8,10 +8,12 @@
   "devDependencies": {
     "@types/jest": "~27.0.2",
     "@types/node": "~16.11.6",
-    "@typescript-eslint/eslint-plugin": "~5.7.0",
-    "@typescript-eslint/parser": "~5.7.0",
-    "eslint": "~8.4.1",
+    "@typescript-eslint/eslint-plugin": "^5.10.0",
+    "@typescript-eslint/parser": "^5.10.0",
+    "eslint": "^8.7.0",
+    "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "~8.3.0",
+    "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-jest": "~25.3.0",
     "jest": "~27.4.4",
     "prettier": "~2.5.1",
@@ -27,12 +29,13 @@
     "build": "tsc -p tsconfig.release.json",
     "build:watch": "tsc -w -p tsconfig.release.json",
     "lint": "eslint . --ext .ts,.tsx",
-    "test": "jest --coverage",
+    "test": "jest",
     "test:watch": "jest --watch"
   },
   "author": "Jakub Synowiec <jsynowiec@users.noreply.github.com>",
   "license": "Apache-2.0",
   "dependencies": {
+    "bitcoin-computer-lib": "^0.5.2-beta",
     "tslib": "~2.3.1"
   },
   "volta": {
