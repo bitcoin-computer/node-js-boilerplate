@@ -25,19 +25,30 @@ describe('Bitcoin Computer', () => {
   });
 
   it('should create a smart object', async () => {
-    const computer = new Computer({ seed: 'replace this seed' });
+    const computer = new Computer({
+      seed: 'replace this seed',
+
+      // uncomment to run locally
+      // url: 'http://127.0.0.1:3000',
+      // network: 'regtest'
+    });
 
     const counter = await computer.new(Counter);
     expect(counter).toEqual({
       n: 0,
       _id: expect.any(String),
       _rev: expect.any(String),
-      _rootId: expect.any(String),
+      _root: expect.any(String),
     });
   }, 20000);
 
   it('should update a smart object', async () => {
-    const computer = new Computer({ seed: 'replace this seed' });
+    const computer = new Computer({
+      seed: 'replace this seed',
+      // uncomment to run locally
+      // url: 'http://127.0.0.1:3000',
+      // network: 'regtest'
+    });
 
     const counter = await computer.new(Counter);
     await counter.inc();
@@ -45,7 +56,7 @@ describe('Bitcoin Computer', () => {
       n: 1,
       _id: expect.any(String),
       _rev: expect.any(String),
-      _rootId: expect.any(String),
+      _root: expect.any(String),
     });
   }, 20000);
 });

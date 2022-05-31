@@ -35,7 +35,7 @@
   "author": "Jakub Synowiec <jsynowiec@users.noreply.github.com>",
   "license": "Apache-2.0",
   "dependencies": {
-    "bitcoin-computer-lib": "^0.5.2-beta",
+    "bitcoin-computer-lib": "^0.8.0-beta",
     "tslib": "~2.3.1"
   },
   "volta": {
