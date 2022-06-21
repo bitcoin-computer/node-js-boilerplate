@@ -64,7 +64,7 @@ unzip bitcoin-computer-node-js-boilerplate.zip && rm bitcoin-computer-node-js-bo
 
 ## License
 
-Licensed under the MIT license. See the [LICENSE](https://github.com/bitcoin-computer/bitcoin-computer-node-js-boilerplate/blob/main/LICENSE) file for details.
+Licensed under the MIT license. See the [LICENSE](https://github.com/bitcoin-computer/bitcoin-computer-node-js-boilerplate/blob/master/LICENSE) file for details.
 
 [ts-badge]: https://img.shields.io/badge/TypeScript-4.5-blue.svg
 [nodejs-badge]: https://img.shields.io/badge/Node.js->=%2016.13-blue.svg
