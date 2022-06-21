@@ -32,8 +32,8 @@
     "test": "jest",
     "test:watch": "jest --watch"
   },
-  "author": "Jakub Synowiec <jsynowiec@users.noreply.github.com>",
-  "license": "Apache-2.0",
+  "author": "Clemens Ley <clemens@bitcoincomputer.io>",
+  "license": "MIT",
   "dependencies": {
     "bitcoin-computer-lib": "^0.8.0-beta",
     "tslib": "~2.4.0"

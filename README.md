@@ -9,7 +9,7 @@
 
 🏃🏽 All basic tools included and configured:
 
-- [Bitcoin Computer 0.5][bitcoin-computer]
+- [Bitcoin Computer 0.8][bitcoin-computer]
 - [TypeScript][typescript] [4.5][typescript-4-5]
 - [ESLint][eslint] with some initial rules recommendation
 - [Jest][jest] for fast unit testing and code coverage
