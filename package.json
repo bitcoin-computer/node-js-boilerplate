@@ -10,7 +10,8 @@
     "build:watch": "tsc -w -p tsconfig.release.json",
     "lint": "eslint --fix . --ext .ts,.tsx",
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "types": "tsc --noEmit"
   },
   "dependencies": {
     "bitcoin-computer-lib": "^0.8.0-beta",
