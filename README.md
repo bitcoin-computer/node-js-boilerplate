@@ -49,12 +49,12 @@ unzip bitcoin-computer-node-js-boilerplate.zip && rm bitcoin-computer-node-js-bo
 
 ## Available Scripts
 
-- `clean` - remove coverage data, Jest cache and transpiled files,
-- `prebuild` - lint source files and tests before building,
-- `build` - transpile TypeScript to ES6,
-- `build:watch` - interactive watch mode to automatically transpile source files,
-- `lint` - lint source files and tests,
-- `test` - run tests,
+- `clean` - remove coverage data, Jest cache and transpiled files
+- `prebuild` - lint source files and tests before building
+- `build` - transpile TypeScript to ES6
+- `build:watch` - interactive watch mode to automatically transpile source files
+- `lint` - lint source files and tests
+- `test` - run tests
 - `types` - run type checks
 - `test:watch` - interactive watch mode to automatically re-run tests
 
