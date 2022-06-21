@@ -5,23 +5,19 @@
 [![APLv2][license-badge]][license]
 <!-- [![Build Status - GitHub Actions][gha-badge]][gha-ci] -->
 
-👩🏻‍💻 A template for using [Bitcoin Computer][bitcoin-computer] with [Node.js][nodejs]. Adapted from [node-typescript-boilerplate][node-typescript-boilerplate].
+👩🏻‍💻 A template for using the [Bitcoin Computer][bitcoin-computer] with [Node.js][nodejs]. Adapted from [node-typescript-boilerplate][node-typescript-boilerplate].
 
 🏃🏽 All basic tools included and configured:
 
-- [Bitcoin Computer 0.8][bitcoin-computer]
-- [TypeScript][typescript] [4.5][typescript-4-5]
-- [ESLint][eslint] with some initial rules recommendation
+- [Bitcoin Computer 0.8][bitcoin-computer] to write smart contracts on Bitcoin
+- [TypeScript][typescript] [4.5][typescript-4-5] for type safe smart contract development
+- [ESLint][eslint] to ensure compliance with coding standards
 - [Jest][jest] for fast unit testing and code coverage
-- Type definitions for Node.js and Jest
-- [Prettier][prettier] to enforce consistent code style
+- [Prettier][prettier] to enforce consistent coding style
 - NPM [scripts](#available-scripts) for common operations
-- Simple example of TypeScript code and unit test
-- .editorconfig for consistent file format
-- Reproducible environments thanks to [Volta][volta]
-- Example configuration for [GitHub Actions][gh-actions]
+- Simple example of Bitcoin Computer smart contract code and unit test
 
-🤲 Free as in speech: available under the APLv2 license.
+✊ Free as in speech: available under the MIT license.
 
 ## Getting Started
 
@@ -29,7 +25,7 @@ This project is intended to be used with the latest Active LTS release of [Node.
 
 ### Use as a repository template
 
-To start, just click the **[Use template][repo-template-action]** link (or the green button). Start adding your code in the `src` and unit tests in the `__tests__` directories.
+To start, just click the **[Use template][repo-template-action]** link (or the green button). Start adding your code in the `src` and unit tests in the `test` directories.
 
 ### Clone repository
 
