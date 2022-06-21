@@ -59,11 +59,12 @@ unzip bitcoin-computer-node-js-boilerplate.zip && rm bitcoin-computer-node-js-bo
 - `build:watch` - interactive watch mode to automatically transpile source files,
 - `lint` - lint source files and tests,
 - `test` - run tests,
+- `types` - run type checks
 - `test:watch` - interactive watch mode to automatically re-run tests
 
 ## License
 
-Licensed under the APLv2. See the [LICENSE](https://github.com/bitcoin-computer/bitcoin-computer-node-js-boilerplate/blob/main/LICENSE) file for details.
+Licensed under the MIT license. See the [LICENSE](https://github.com/bitcoin-computer/bitcoin-computer-node-js-boilerplate/blob/main/LICENSE) file for details.
 
 [ts-badge]: https://img.shields.io/badge/TypeScript-4.5-blue.svg
 [nodejs-badge]: https://img.shields.io/badge/Node.js->=%2016.13-blue.svg
